@@ -7,7 +7,7 @@ solution: \beta = (X'X)^{-1}X'y
 """
 
 import numpy as np
-from library.utils.arrays import as_2d
+from library.utils import as_2d
 
 class OLS:
     def __init__(self, fit_intercept=True):
